@@ -6,6 +6,8 @@ number = input("Number\n")
 plural_noun = input("Plural noun\n")
 adjective_2 = input("Another adjective\n")
 
-print("The noun you chose was:")
-message= f"My name is {name} and I am {number} years old. I like {noun} and the {noun} she likes is very {adjective}. Another thing {name} likes is {verb}. She {plural_noun} a lot with her friends. {name} is a very {adjective_2} if you get to know her  "
-print(noun)
+number = 3
+my_string = f"My number is: {number}."
+print(my_string)
+message = f"Today in computer science class, Mr. Forsyth taught us how to program a(n) {noun}. First, we clicked the {adjective} button, then the computer started {verb}. Suddenly, {name} accidentally created {number} {plural_noun}! Mr. Forsyth said, \"This is the most {adjective_2} bug I've ever seen.\""
+print(message) 
